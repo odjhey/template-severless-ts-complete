@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@serverless/typescript": "^2.52.1",
+    "@shelf/jest-mongodb": "^2.0.1",
     "@types/aws-lambda": "^8.10.81",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.8",
@@ -32,6 +33,7 @@
   "dependencies": {
     "@middy/core": "^2.4.3",
     "@middy/http-json-body-parser": "^2.4.3",
+    "mongodb": "^4.0.1",
     "source-map-support": "^0.5.19"
   }
 }
