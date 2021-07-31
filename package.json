@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "sls offline start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +13,14 @@
   "devDependencies": {
     "@serverless/typescript": "^2.52.1",
     "@types/aws-lambda": "^8.10.81",
+    "@types/jest": "^26.0.24",
     "@types/node": "^16.4.8",
+    "jest": "^27.0.6",
     "json-schema-to-ts": "^1.6.4",
     "serverless": "^2.52.1",
     "serverless-offline": "^8.0.0",
     "serverless-webpack": "^5.5.1",
+    "ts-jest": "^27.0.4",
     "ts-loader": "^9.2.4",
     "ts-node": "^10.1.0",
     "tsconfig-paths": "^3.10.1",
